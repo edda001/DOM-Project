@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation</title>
+    <style>
+        body{
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            background: #e5e4e2;
+        }
+        .div2{
+            align-items: center;
+            background: white;
+            width: 300px;
+            height: 300px;
+            margin-top: 6%;
+            margin-left: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .div1{
+            width: 200px;
+            background: orangered;
+            height: 200px;
+            margin: 10%;
+            padding: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button{
+            display: block;
+           padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div2">
+        <div class="div1">
+            <a href="" class="button">click</a>
+        </div>
+    </div>
+</body>
+</html>
